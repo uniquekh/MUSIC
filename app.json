@@ -1,13 +1,13 @@
 {
-    "name": "Yukki Music Bot",
+    "name": "Unique Music Bot",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
     "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Yukki",
-    "YukkiMusicBot",
+    "Unique",
+    "UniqueMusicBot",
     "telegram-bot",
     "pyrogram"
     ],
@@ -15,12 +15,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "24271143",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "27be842cb506de9b5520146dfd0ba299",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
@@ -30,12 +30,12 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "6906872120:AAHq_0kq_w2dtbJ5OttL4ZQXH6tqzrx0iOs",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
-        "value": "",
+        "value": "mongodb+srv://mujeem000:LJZ7Kze9kD0D05q4@cluster0.nybij0n.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "MUSIC_BOT_NAME": {
@@ -45,12 +45,12 @@
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "",
+        "value": "MUSIC BAJAO",
         "required": true
       },
       "STRING_SESSION": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "",
+        "value": "BQAhTwYAtXQZ6CRK1SWTN_ZpoT3HfJJaa44U8YsKyLFxSMG79BAM8OJEhr53DQ2egxeVES8U8UqZoqp992P-mkHTgYeemhNu-Lp26UGxpy4r9St5Yn3z0rVP_Ew2aRvi6V-Ja4z_85Bc8Sgm0FHtJm4ccK1mJLGn03hQq4zcFkTSVr-AgGAIKbAEC8PHV2IFX541niLlBPZlIV2b45DAX9XJN9HUs3DqyOw-eFOlxOTCTEihq-y1oKuxPviiutVk_yUnDuh_CIdAU1SCM_eUdRSJlwR6D2roDIjIt6LfSuz1_vJ4n6EVPkABkPBjAWSfqUTGQbIluIIf3rvLsraSilTRYbm9tQAAAAFT3v0gAA",
         "required": true
       },
       "HEROKU_API_KEY": {
